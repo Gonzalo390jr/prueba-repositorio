@@ -5,5 +5,18 @@
 }
 
 h1{
-    background-color: aquamarine;
+    color: blue;
+}
+
+.hola-mundo{
+    background-color: cadetblue;
+    text-align: center;
+    max-width: 650px;
+    margin: 15px auto;
+}
+
+@medai(max-width: 550px){
+    .hola-mundo{
+        background-color:red;
+    }
 }
