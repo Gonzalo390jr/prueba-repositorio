@@ -15,6 +15,16 @@ h1{
     margin: 15px auto;
 }
 
+.flez-index{   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+}
+
 @media(max-width: 550px){
     .hola-mundo{
         background-color:red;
